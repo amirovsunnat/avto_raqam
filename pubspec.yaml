@@ -1,0 +1,14 @@
+name: avto_raqam
+description: A Flutter package for entering Uzbekistan license plates.
+version: 0.0.1
+homepage: https://github.com/amirovsunnat/avto_raqam
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
