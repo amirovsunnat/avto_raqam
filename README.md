@@ -1,39 +1,27 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# avto_raqam 🇺🇿
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+`avto_raqam` — bu Oʻzbekiston avtomobil raqamlarini Flutter ilovalaringizda kiritish, tekshirish va formatlashni osonlashtiradigan qulay va yengil paket. U turli raqam turlarini (xususiy, davlat, harbiy, diplomatik va boshqalar) tanib oladi va interfeysda intuitiv kirishni ta'minlaydi.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+---
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## 🔍 Asosiy imkoniyatlar
 
-## Features
+- ✅ Oʻzbek avtomobil raqamlarining barcha asosiy formatlarini qoʻllab-quvvatlaydi
+- ⌨️ `TextField` asosida `AvtoRaqamInput` vidjeti
+- 🔠 Real vaqtda validatsiya va avtomatik formatlash
+- 💡 Mos `hintText` ko‘rsatadi
+- 🎯 Turli ekranlar uchun moslashuvchan
+- 🧩 Osongina integratsiya qilinadi
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+---
 
-## Getting started
+## 🚀 Boshlash
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### 1. O‘rnatish
 
-## Usage
+`pubspec.yaml` faylingizga quyidagilarni qo‘shing:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  avto_raqam: ^1.0.0
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
