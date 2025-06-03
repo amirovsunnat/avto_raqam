@@ -1,4 +1,6 @@
+// lib/avto_raqam.dart
 library avto_raqam;
 
-export 'src/plate_input_field.dart';
-export 'src/uz_plate_formats.dart';
+export 'src/widgets/avto_raqam_input.dart';
+export 'src/models/uz_plate_format.dart';
+export 'src/utils/uz_plate_data.dart';
